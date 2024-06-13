@@ -1,0 +1,3 @@
+C:/Users/ser/Desktop/Practica_EDD_202103988/cmake-build-debug/CMakeFiles/ReadJSON.dir
+C:/Users/ser/Desktop/Practica_EDD_202103988/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ser/Desktop/Practica_EDD_202103988/cmake-build-debug/CMakeFiles/rebuild_cache.dir

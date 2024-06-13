@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Carlos Rodríguez",
+    "nacionalidad": "Mexico",
+    "numero_de_pasaporte": "P45678901",
+    "vuelo": "A900",
+    "asiento": 23,
+    "destino": "Ciudad de Mexico",
+    "origen": "Miami",
+    "equipaje_facturado": 0
+  },
+  {
+    "nombre": "John Doe",
+    "nacionalidad": "Estados Unidos",
+    "numero_de_pasaporte": "P12345678",
+    "vuelo": "A100",
+    "asiento": 12,
+    "destino": "New York",
+    "origen": "Los Angeles",
+    "equipaje_facturado": 2
+  },
+  {
+    "nombre": "Jane Smith",
+    "nacionalidad": "Reino Unido",
+    "numero_de_pasaporte": "P98765432",
+    "vuelo": "A200",
+    "asiento": 5,
+    "destino": "Londres",
+    "origen": "Paris",
+    "equipaje_facturado": 1
+  },
+  {
+    "nombre": "Liu Wei",
+    "nacionalidad": "China",
+    "numero_de_pasaporte": "P23456789",
+    "vuelo": "A789",
+    "asiento": 8,
+    "destino": "Beijing",
+    "origen": "San Francisco",
+    "equipaje_facturado": 1
+  },
+  {
+    "nombre": "Ahmed Al-Farsi",
+    "nacionalidad": "Emiratos Arabes Unidos",
+    "numero_de_pasaporte": "P34567890",
+    "vuelo": "A789",
+    "asiento": 1,
+    "destino": "Dubai",
+    "origen": "New York",
+    "equipaje_facturado": 3
+  },
+  {
+    "nombre": "David Yoque",
+    "nacionalidad": "Guatemala",
+    "numero_de_pasaporte": "P69999999",
+    "vuelo": "A789",
+    "asiento": 6,
+    "destino": "Dubai",
+    "origen": "Coban",
+    "equipaje_facturado": 3
+  }
+]

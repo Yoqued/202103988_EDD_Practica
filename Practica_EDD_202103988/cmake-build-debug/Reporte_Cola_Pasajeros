@@ -1,0 +1,4 @@
+digraph G {
+    node [shape=record];
+    nodo0 [label="{|Nombre: David Yoque\nNacionalidad: Guatemala\nPasaporte: P69999999\nVuelo: A789\nDestino: Dubai\nOrigen: Coban\nEquipaje: 3|}"];
+}

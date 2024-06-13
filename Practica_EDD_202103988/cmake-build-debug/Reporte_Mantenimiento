@@ -1,0 +1,6 @@
+digraph G {
+    node [shape=record];
+    nodo0 [label="{|Vuelo: A100\nNúmero de Registro: N12345\nModelo: Boeing 737\nFabricante: Boeing\nAño: 2015\nCapacidad: 180\nPeso Máximo: 79000\nAerolínea: AirlineX\nEstado: Mantenimiento|}"];
+    nodo0 -> nodo0;
+    nodo0 -> nodo0;
+}

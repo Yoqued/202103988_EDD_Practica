@@ -1,0 +1,12 @@
+digraph G {
+    node [shape=record];
+    nodo0 [label="{<siguiente> | Nombre: David Yoque\nPasaporte: P69999999\nEquipaje: 3 | <anterior>}"];
+    nodo0:siguiente -> nodo1:anterior;
+    nodo1 [label="{<siguiente> | Nombre: Ahmed Al-Farsi\nPasaporte: P34567890\nEquipaje: 3 | <anterior>}"];
+    nodo1:siguiente -> nodo2:anterior;
+    nodo2 [label="{<siguiente> | Nombre: Liu Wei\nPasaporte: P23456789\nEquipaje: 1 | <anterior>}"];
+    nodo2:siguiente -> nodo3:anterior;
+    nodo3 [label="{<siguiente> | Nombre: Jane Smith\nPasaporte: P98765432\nEquipaje: 1 | <anterior>}"];
+    nodo3:siguiente -> nodo4:anterior;
+    nodo4 [label="{<siguiente> | Nombre: John Doe\nPasaporte: P12345678\nEquipaje: 2 | <anterior>}"];
+}

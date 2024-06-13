@@ -1,0 +1,16 @@
+digraph G {
+    node [shape=record];
+    nodo0 [label="{<anterior> | Nombre: Carlos Rodríguez\nPasaporte: P45678901\nNacionalidad: Mexico\nVuelo: A900\nAsiento: 23\nDestino: Ciudad de Mexico\nOrigen: Miami\nEquipaje Facturado: 0 | <siguiente>}"];
+    nodo1 [label="{<anterior> | Nombre: John Doe\nPasaporte: P12345678\nNacionalidad: Estados Unidos\nVuelo: A100\nAsiento: 12\nDestino: New York\nOrigen: Los Angeles\nEquipaje Facturado: 2 | <siguiente>}"];
+    nodo2 [label="{<anterior> | Nombre: Jane Smith\nPasaporte: P98765432\nNacionalidad: Reino Unido\nVuelo: A200\nAsiento: 5\nDestino: Londres\nOrigen: Paris\nEquipaje Facturado: 1 | <siguiente>}"];
+    nodo3 [label="{<anterior> | Nombre: Liu Wei\nPasaporte: P23456789\nNacionalidad: China\nVuelo: A789\nAsiento: 8\nDestino: Beijing\nOrigen: San Francisco\nEquipaje Facturado: 1 | <siguiente>}"];
+    nodo4 [label="{<anterior> | Nombre: Ahmed Al-Farsi\nPasaporte: P34567890\nNacionalidad: Emiratos Arabes Unidos\nVuelo: A789\nAsiento: 1\nDestino: Dubai\nOrigen: New York\nEquipaje Facturado: 3 | <siguiente>}"];
+    nodo0:siguiente -> nodo1:anterior;
+    nodo1:anterior -> nodo0:siguiente;
+    nodo1:siguiente -> nodo2:anterior;
+    nodo2:anterior -> nodo1:siguiente;
+    nodo2:siguiente -> nodo3:anterior;
+    nodo3:anterior -> nodo2:siguiente;
+    nodo3:siguiente -> nodo4:anterior;
+    nodo4:anterior -> nodo3:siguiente;
+}

@@ -1,0 +1,8 @@
+IngresoEquipajes;
+IngresoEquipajes;
+IngresoEquipajes;
+MantenimientoAviones,Ingreso,N12345;
+MantenimientoAviones,Salida,N13579;
+MantenimientoAviones,Salida,N24680;
+IngresoEquipajes;
+IngresoEquipajes;

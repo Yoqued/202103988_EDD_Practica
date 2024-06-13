@@ -1,0 +1,15 @@
+digraph G {
+    node [shape=record];
+    nodo0 [label="{|Vuelo: A102\nNúmero de Registro: N54321\nModelo: Airbus A320\nFabricante: Airbus\nAño: 2018\nCapacidad: 150\nPeso Máximo: 77000\nAerolínea: AirlineY\nEstado: Disponible|}"];
+    nodo0 -> nodo1;
+    nodo1 -> nodo0;
+    nodo1 [label="{|Vuelo: A104\nNúmero de Registro: N67890\nModelo: Boeing 787\nFabricante: Boeing\nAño: 2020\nCapacidad: 242\nPeso Máximo: 254000\nAerolínea: AirlineZ\nEstado: Disponible|}"];
+    nodo1 -> nodo2;
+    nodo2 -> nodo1;
+    nodo2 [label="{|Vuelo: A106\nNúmero de Registro: N13579\nModelo: Boeing 777\nFabricante: Boeing\nAño: 2012\nCapacidad: 396\nPeso Máximo: 351000\nAerolínea: AirlineX\nEstado: Disponible|}"];
+    nodo2 -> nodo3;
+    nodo3 -> nodo2;
+    nodo3 [label="{|Vuelo: A108\nNúmero de Registro: N24680\nModelo: Airbus A380\nFabricante: Airbus\nAño: 2010\nCapacidad: 853\nPeso Máximo: 560000\nAerolínea: AirlineW\nEstado: Disponible|}"];
+    nodo3 -> nodo0;
+    nodo0 -> nodo3;
+}
